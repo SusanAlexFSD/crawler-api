@@ -4,7 +4,7 @@ import type {
   CrawlResult,
   CrawlSuccess,
   CrawlError,
-} from "./types";
+} from "./types.js";
 
 export async function crawlWebsite(
   url: string
